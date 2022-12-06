@@ -11,6 +11,7 @@ namespace AR.Data
         {
 
         }
-        public DbSet<Cliente>
+        // Tabela
+        public DbSet<Cliente> Cliente { get; set; }
     }
 }
